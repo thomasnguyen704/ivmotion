@@ -114,19 +114,33 @@
         <div class='container'>
                 <p class='display-4'>Buy Here</p>
             <div class='row'>
-                <div class='col-lg-6'>
+                <div class='col-lg-12'>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="KUC577J54FR4Q">
+                        <table>
+                            <tr> <td> <input type="hidden" name="on0" value="L&V Summer Intensive">L&V Summer Intensive </td> </tr>
+                            <tr>
+                                <td>
+                                    <select class="form-control" name="os0">
+                                        <option value="Full Summer Intensive">Full Summer Intensive $70.00 USD</option>
+                                        <option value="Full Summer Intensive + HH Heels">Full Summer Intensive + HH Heels $80.00 USD</option>
+                                        <option value="Beginner Zouk; Counter Balance">Beginner Zouk; Counter Balance $20.00 USD</option>
+                                        <option value="Zouk">Zouk $20.00 USD</option>
+                                        <option value="Bachata with Zouk Fusion">Bachata with Zouk Fusion $20.00 USD</option>
+                                        <option value="Bachata Footwork/Styling">Bachata Footwork/Styling $20.00 USD</option>
+                                        <option value="Hip Hop Heels">Hip Hop Heels $20.00 USD</option>
+                                    </select>
+                                    <br>
+                                </td>
+                            </tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <br>
                     <p class='lead'>Contact us at iv@ivmotion.com for any questions.</p>
-                    <!-- suggestion: add social links such as facebook. easier to connect to existing clients which will help with repeat business. -->
-                </div>
-                <div class='col-lg-6'>
-                    <!-- you can replace lines below -->
-                    <select class='custom-select'>
-                        <option selected>Open this select menu</option>
-                        <option value='1'>One</option>
-                        <option value='2'>Two</option>
-                        <option value='3'>Three</option>
-                    </select>
-                    <!-- you can replace the lines above-->
                 </div>
             </div>
         </div>
