@@ -6,7 +6,7 @@
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css' integrity='sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4' crossorigin='anonymous'>
     <title>IV Motion</title>
     <style>
-        * { border-radius: 0 !important; }
+        * { border-radius: 0 !important; box-sizing: border-box; }
         .put-bottom { margin: 1rem; }
         .section-1 { padding: 10% 0 0 0; }
         .divider { padding: 10% 0 10% 0; }
@@ -31,9 +31,15 @@
             height: 50vh;
             padding: 10% 0 50% 0;
         }
+        .section-2 a { color: white; }
     </style>
 </head>
 <body>
+
+    <div class='embed-responsive embed-responsive-16by9'>
+        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fluisyvictoriadance%2Fvideos%2F1618813544846350%2F&show_text=0&width=560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" autoplay="true"></iframe>
+    </div>
+
 
     <div class='section-1'>
         <div class='container'>
@@ -68,8 +74,9 @@
                         <li class='lead'>3:30 PM Bachata Footwork/Styling</li>
                         <li class='lead'>4:30 PM BOUNUS! Hip Hop Heels</li>
                     </ul>
-                    <br>
-                    <a class='btn btn-primary' href="#pay">Apply Now</a>
+                    <u><a href='https://www.facebook.com/luisyvictoriadance/' target='_blank'>Learn more about Luis & Victoria on Facebook.</a></u>
+                    <br><br>
+                    <a class='btn btn-primary' href='#pay'>Apply Now</a>
                     <br><br><br><br>
                 </div>
                 <div class='col-lg-6'>
@@ -99,7 +106,7 @@
                 </div>
             </div>
             <br><br>
-            <a class='btn btn-primary' href="#pay">Apply Now</a>
+            <a class='btn btn-primary' href='#pay'>Apply Now</a>
         </div>
     </div>
 
@@ -113,11 +120,11 @@
                 </div>
                 <div class='col-lg-6'>
                     <!-- you can replace lines below -->
-                    <select class="custom-select">
+                    <select class='custom-select'>
                         <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                        <option value='1'>One</option>
+                        <option value='2'>Two</option>
+                        <option value='3'>Three</option>
                     </select>
                     <!-- you can replace the lines above-->
                 </div>
